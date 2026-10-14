@@ -10,6 +10,7 @@ export default defineConfig(({mode}) => {
     },
   } : {};
   return {
+    base: '/personaplex-web/',
     server: {
       host: "0.0.0.0",
       https: {
